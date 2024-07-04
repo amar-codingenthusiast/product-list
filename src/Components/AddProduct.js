@@ -54,7 +54,7 @@ export const AddProduct = ({ addProduct, errorMessage }) => {
 					style={{
 						position: "absolute",
 						top: "130px",
-						right: "420px",
+						left: "450px",
 						color: "red",
 					}}
 				>
