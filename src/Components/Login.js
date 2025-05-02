@@ -22,6 +22,7 @@ export const Login = () => {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
+					"x-api-key": "reqres-free-v1"
 				},
 				body: JSON.stringify({
 					email: cred.email,
